@@ -11,7 +11,7 @@ module "cdn" {
   source = "terraform-aws-modules/cloudfront/aws"
 
   comment          = "FE UI Portal"
-  hosted_zone_name = "entrywriter.junctionnet.tech"
+  hosted_zone_name = "example.com"
   frontend_subdomain_aliases = [
     "portal",
   ]
